@@ -27,10 +27,11 @@ app.use(
 
 const PORT = 3000;
 // console.log(characterStore)
+
 app.get("/characters", (req, res) => {
   res.status(200).json(characterStore);
 });
-debugger;
+
 
 app.post("/characters/add", validateAddCharacter, createCharacter);
 
