@@ -6,7 +6,7 @@
   margin: 20px 0 60px;
 }
 
-#characters {
+.characters {
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 40px;

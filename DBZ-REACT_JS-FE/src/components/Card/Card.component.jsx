@@ -28,8 +28,7 @@ const Card = () => {
     <main className="card-content">
       <Hero />
       <h1 className="card-title">The Dragon Ball API</h1>
-
-      <Characters characters={charactersDetails} />
+      {charactersDetails && <Characters characters={charactersDetails} />}
 
       <Footer />
     </main>
